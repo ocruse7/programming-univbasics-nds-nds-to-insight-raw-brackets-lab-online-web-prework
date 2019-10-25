@@ -4,7 +4,6 @@ require 'pp'
 
 def directors_totals(nds)
   total = 0
-  j = 0
   directors_hash = {}
   nds.length.times do |i|
     nds[i][:movies].length.times do |j|
